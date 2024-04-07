@@ -1,0 +1,6 @@
+#convert second to hours and mint
+seconds=int(input("enter the seconds:"))
+hours=seconds/3600
+mintues=seconds/60
+seconds=seconds%seconds
+print("hours:",hours,"mintutes",mintues,"seconds",seconds)
